@@ -50,3 +50,17 @@ Provide a working implementation of a TicketService that:
 - Calculates the correct no of seats to reserve and makes a seat reservation request to the SeatReservationService.  
 - Rejects any invalid ticket purchase requests. It is up to you to identify what should be deemed as an invalid purchase request.
 
+### My comments
+
+- Added log4j dependencies to log error on the console
+
+- Test coverage 93%, attached screenshot for more details
+
+<img src="unit-test-coverage.png" alt="Alt text" title="Test coverage">
+
+- Maven build without any issue, attached screenshot for more details
+```
+mvn clean 
+```
+
+<img src="maven-build.png" alt="Alt text" title="Test coverage">
